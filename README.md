@@ -11,3 +11,5 @@ Power ups and multiple levels to be added.
 
 
 09.10.21 - Inital commit, starting new project
+
+14.10.21 - New enemies, spawners, animations for the new enemies as well as art for enemies yet to be added. Power up active and timer works. Although power up as a drop and pick-up item not yet active. Press shift to try out the power up feature for now. Next up - Power ups as drops, main menu, game over screen and levels.

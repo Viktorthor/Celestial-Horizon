@@ -5,18 +5,24 @@ public class PlayerController : MonoBehaviour
 {
     //Public variables
     public float moveSpeed = 1;
-    public int health = 10;
+    public int health;
     //WIP - Set borders dynamically
     public float HorizontalBorder = 2.33f;
     public float VerticalBorder = 4.78f;
     public Vector3 moveAmount;
-
-    BulletEmitter currentProfile;
+    public EmitterProfile defaultShot;
     public EmitterProfile playerPowerUp;
+    public float powerUpDuration;
+
+    //Private or other variables
+    BulletEmitter currentProfile;
+    private bool hasPowerUp = false;
+    float powerUpReset;
 
     private void Start()
     {
         currentProfile = GetComponent<BulletEmitter>();
+        powerUpReset = powerUpDuration;
     }
 
     private void Update()
@@ -28,11 +34,27 @@ public class PlayerController : MonoBehaviour
         moveAmount -= moveDiff;
 
         //Swap out for power up
-       /* if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            currentProfile.SwitchProfile(playerPowerUp, false);
+            powerUp();
+            hasPowerUp = true;
         }
-       */
+
+        if(hasPowerUp == true)
+        {
+            if (powerUpDuration <= 0.0f)
+            {
+                currentProfile.Pause();
+                currentProfile.SwitchProfile(defaultShot);
+                hasPowerUp = false;
+                powerUpDuration = powerUpReset;
+            }
+            else
+            {
+                powerUpDuration -= Time.deltaTime;
+                Debug.Log(powerUpDuration);
+            }
+        }
 
         //World Boundaries
         //left
@@ -54,6 +76,19 @@ public class PlayerController : MonoBehaviour
     public void gameOver()
     {
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+        {
+            getHit();
+        }
+    }
+
+    void powerUp()
+    {
+        currentProfile.SwitchProfile(playerPowerUp);
     }
 
 }

@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: Shot
   m_EditorClassIdentifier: 
   parameterType: 1
-  uniqueIndex: 3505351
+  uniqueIndex: 1409749
   profile: {fileID: 11400000}
   parent: {fileID: 114184213563873034}
   children:
@@ -2580,7 +2580,7 @@ MonoBehaviour:
   m_Name: Pattern
   m_EditorClassIdentifier: 
   parameterType: 2
-  uniqueIndex: 7773222
+  uniqueIndex: 415532
   profile: {fileID: 11400000}
   parent: {fileID: 114334976902514986}
   children:
@@ -3715,8 +3715,7 @@ MonoBehaviour:
             parameterType: 0
             relativeTo: 0
             parameterName: 
-          defaultValue: {fileID: 8300000, guid: 09e0108d3596648528653fc06ba6ab3a,
-            type: 3}
+          defaultValue: {fileID: 8300000, guid: 09e0108d3596648528653fc06ba6ab3a, type: 3}
         narrowType: 1
         requireComponent: 0
         typeName: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
@@ -13240,8 +13239,7 @@ MonoBehaviour:
             parameterType: 0
             relativeTo: 0
             parameterName: 
-          defaultValue: {fileID: 8300000, guid: 21dd0da7ee70946c483910c846a01f7d,
-            type: 3}
+          defaultValue: {fileID: 8300000, guid: 21dd0da7ee70946c483910c846a01f7d, type: 3}
         narrowType: 1
         requireComponent: 0
         typeName: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
@@ -31074,7 +31072,7 @@ MonoBehaviour:
   m_Name: Root Emitter
   m_EditorClassIdentifier: 
   parameterType: 0
-  uniqueIndex: 9742419
+  uniqueIndex: 166580
   profile: {fileID: 11400000}
   parent: {fileID: 0}
   children:
@@ -38184,7 +38182,7 @@ MonoBehaviour:
   m_Name: Bullet
   m_EditorClassIdentifier: 
   parameterType: 0
-  uniqueIndex: 11427616
+  uniqueIndex: 10316015
   profile: {fileID: 11400000}
   parent: {fileID: 114043142638459942}
   children: []

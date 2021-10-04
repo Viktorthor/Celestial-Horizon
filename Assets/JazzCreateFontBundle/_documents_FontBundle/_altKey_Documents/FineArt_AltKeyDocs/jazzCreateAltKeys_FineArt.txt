@@ -1,0 +1,74 @@
+﻿                       Alt Keys for jazzCreateFineArt font
+To display and use this document as intended open in NotePad
+first install the font to your operating system by right mouse clicking
+the TTF file and select install.
+secondly select Format in notepad, choose font, and then simply find 
+jazzCreateFineArt and select it, also this document ideal font size was 28.
+
+To use some fonts in Unity or Unity Pro, 
+you may need to copy and paste them from here
+then paste into your code, and or the inspector.
+
+The 148 Characters usable in a Unity Project
+JazzCreateFineArt
+---------------------------------------------------------------------
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0123456789
+!£$%^&*()_-=+{}[];:'@#~,<.>/?`¬
+☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼§▬↨↑↓→←∟↔▲▼
+¢¥ƒ¿½¼¡«»©®°±µ¶¾÷‹›™†‡–Ø€
+----------------------------------------------------------------------
+Bonus Fonts - 110 characters each
+JazzCreateFineArt3DStyle & JazzCreateFineArtOutlined
+----------------------------------------------------------------------
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0123456789
+!£$%^&*()_-=+{}[];:'@#,<.>/?`¬
+§¢¥ƒ¿½¼¡«»©®°±µ¶¾÷
+-----------------------------------------------------------------------
+
+please be aware characters " and \ , can't be used in unity due to 
+their scripting nature.
+
+alt + 1 = ☺ , alt + 2 = ☻ , alt + 3 = ♥ , alt + 4 = ♦ , alt + 5 = ♣ 
+alt + 6 = ♠ , alt + 7 = • , alt + 8 = ◘ , alt + 9 = ○ , alt + 10 = ◙ 
+alt + 11 = ♂ , alt + 12 = ♀ , alt + 13 = ♪ , alt + 14 = ♫ , alt + 15 = ☼ 
+alt + 16 = ► , alt + 17 = ◄ , alt + 18 = ↕ , alt + 19 = ‼ , alt + 20 = ¶
+alt + 21 = § , alt + 22 = ▬ , alt + 23 = ↨ , alt + 24 = ↑ , alt + 25 = ↓ 
+alt + 26 = → , alt + 27 = ← , alt + 28 = ∟ , alt + 29 = ↔ , alt + 30 = ▲ 
+alt + 31 = ▼ , alt + 33 = ! , alt + 34 = " , alt + 35 = # , alt + 36 = $ 
+alt + 37 = % , alt + 38 = & , alt + 39 = ' , alt + 40 = ( , alt + 41 = )
+alt + 42 = * , alt + 43 = + , alt + 44 = , , alt + 45 = - , alt + 46 = .
+alt + 47 = / , alt + 156 = £ , alt + 94 = ^  , alt + 95 = _ , alt + 61 = =
+alt + 123 = { , alt + 125 = } , alt + 91 = [ , alt + 93 = ] , alt + 59 = ; 
+alt + 58 = : , alt + 64 = @ , alt + 126 = ~ , alt + 60 = < , alt + 62 = >
+alt + 63 = ? , alt + 92 = \ , alt + 96 = ` , alt + 0172 = ¬ , alt + 0162 = ¢
+alt + 0165 = ¥ , alt + 0131 = ƒ , alt + 168 = ¿ , alt + 171 = ½ , alt + 172 = ¼
+alt + 173 = ¡ , alt + 174 = « , alt + 175 = » , alt + 0169 = © 
+alt + 0174 = ® , alt + 0176 = ° , alt + 241 = ± , alt + 230 = µ 
+alt + 0190 = ¾ , alt + 246 = ÷ , alt + 0139 = ‹ , alt + 0155 = › 
+alt + 0153 = ™ , alt + 0134 = † , alt + 0135 = ‡
+alt + 0150 = – , alt + 0216 = Ø , alt + 0128 = € 
+
+------------------------------------------------------------------------------------------
+
+3D Characters Guide/tips
+
+When dropping a font character into the scene from the model folder
+a, drop font charcter into heirachy 
+b, reset transform
+c, change Y rotation to 180 - this will put the character to the correct rotation of a default Unity scene
+d, change Y position to 0.3 - this will put the character on top of a default plane set at position x 0, y 0, z 0
+e, create a empty gameobject to use as a font character holder, reset transform
+f, place font characters as you wish them to be in your scene
+g, place all font characters from the scene heirachy into the empty font character holder object
+h, now you can just move the holder around to place your created words anywhere in the scene.
+ 
+
+
+Thanks for using JazzCreate Fonts.
+
+
+JazzCreate©2015-2016 AllRightsReserved.

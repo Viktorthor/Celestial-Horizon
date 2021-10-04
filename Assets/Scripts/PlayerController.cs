@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public EmitterProfile defaultShot;
     public EmitterProfile playerPowerUp;
     public float powerUpDuration;
+    public gameManager gameMan;
 
     //Private or other variables
     BulletEmitter currentProfile;
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         currentProfile = GetComponent<BulletEmitter>();
         powerUpReset = powerUpDuration;
+        gameMan = GetComponent<gameManager>();
     }
 
     private void Update()
@@ -76,6 +78,7 @@ public class PlayerController : MonoBehaviour
     public void gameOver()
     {
         Destroy(gameObject);
+        gameMan.gameOver();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

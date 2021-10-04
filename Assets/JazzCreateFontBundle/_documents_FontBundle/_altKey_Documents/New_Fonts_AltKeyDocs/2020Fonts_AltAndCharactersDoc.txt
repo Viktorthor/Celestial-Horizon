@@ -1,0 +1,29 @@
+2020 Font characters and alt key list
+
+-----------------------------------
+108 characters
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqurstuvwxyz
+0123456789
+,.<>/?'@;:#~=+_-()*&^%$£"!\|
+[]{}©®™¥€♥♦♣♠–—’“”
+-----------------------------------
+Alt keys list
+
+Alt + 3 = ♥
+Alt + 4 = ♦
+Alt + 5 = ♣
+Alt + 6 = ♠
+Alt + 0128 = €
+Alt + 0146 = ’ (single quote)
+Alt + 0147 = “ (left double quote)
+Alt + 0148 = ” (right double quote)
+Alt + 0150 = – (en dash)
+Alt + 0151 = — (em dash)
+Alt + 0153 = ™
+Alt + 0165 = ¥
+Alt + 0169 = ©
+Alt + 0174 = ®
+
+Created by JazzCreateGames©2020

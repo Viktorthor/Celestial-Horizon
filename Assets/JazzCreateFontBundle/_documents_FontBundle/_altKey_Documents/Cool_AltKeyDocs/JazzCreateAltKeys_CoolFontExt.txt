@@ -1,0 +1,70 @@
+﻿                       Alt Keys for jazzCreateCoolFontExt font & 3D characters guide
+
+To display and use this document as intended open in NotePad
+first install the font to your operating system by right mouse clicking
+the TTF file and select install.
+secondly select Format in notepad, choose font, and then simply find 
+jazzCreateCoolFont and select it, also this document ideal font size was 28.
+
+To use some fonts in Unity, 
+you may need to copy and paste them from here
+then paste into your code, and or the inspector.
+
+The 193 Characters usable in a Unity Project
+---------------------------------------------------------------------
+
+!"#$%&'()*+,-./0123456789:;<=>?@
+ABCDEFGHIJKLMNOPQRSTUVWXY
+Z[\]^_`abcdefghijklmnopqrstuvwxyz
+¢£¤¥©ª«®º»ÀÁÂÃÄÅÆÇÈÉÊËÌÍ
+ÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæ
+çèéêëìíîïðñòóôõö÷øùúûüýþÿŒœŠšŽžƒ
+•<>€™←↑→↓▲►▼◄☺☻☼♀♂♠♣♥♦♪♫
+----------------------------------------------------------------------
+please be aware in most cases characters " and \ , can't be used in unity due to 
+their scripting nature.
+
+[AltKeys] = Hold down alt, whilst held down enter the numeric value then release alt.
+
+Alt+33 ! Alt+34 " Alt+35 # Alt+36 $ Alt+37 % Alt+38 & Alt+39 ' Alt+40 ( Alt+41 )
+Alt+42 * Alt+43 + Alt+44 , Alt+45 - Alt+46 . Alt+47 /  Alt+48 0 Alt+49 1 Alt+50 2
+Alt+51 3 Alt+52 4 Alt+53 5 Alt+54 6 Alt+55 7 Alt+56 8 Alt+57 9 Alt+58 : Alt+59 ;
+Alt+60 < Alt+61 = Alt+62 > Alt+63 ? Alt+64 @ Alt+65 A Alt+66 B Alt+67 C Alt+68 D
+Alt+69 E Alt+70 F Alt+71 G Alt+72 H Alt+73 I Alt+74 J Alt+75 K Alt+76 L Alt+77 M
+Alt+78 N Alt+79 O Alt+80 P Alt+81 Q Alt+82 R Alt+83 S Alt+84 T Alt+85 U Alt+86 V
+Alt+87 W Alt+88 X Alt+89 Y Alt+90 Z Alt+91 [ Alt+92 \ Alt+93 ] Alt+94 ^ Alt+95 _
+Alt+96 ` Alt+97 a Alt+98 b Alt+99 c Alt+100 d Alt+101 e Alt+102 f Alt+103 g Alt+104 h
+Alt+105 i Alt+106 j Alt+107 k Alt+108 l Alt+109 m Alt+110 n Alt+111 o Alt+112 p Alt+113 q
+Alt+114 r Alt+115 s Alt+116 t Alt+117 u Alt+118 v Alt+119 w Alt+120 x Alt+121 y Alt+122 z
+Alt+0162 ¢ Alt+156 £ Alt+0164 ¤ Alt+0165 ¥ Alt+0169 © Alt+0170 ª Alt+0171 « Alt+0174 ®
+Alt+0186 º Alt+0187 » Alt+0192 À Alt+0193 Á Alt+0194 Â Alt+0195 Ã Alt+0196 Ä Alt+0197 Å
+Alt+0198 Æ Alt+0199 Ç Alt+0200 È Alt+0201 É Alt+0202 Ê Alt+0203 Ë Alt+0204 Ì 
+Alt+0205 Í Alt+0206 Î Alt+0207 Ï Alt+0208 Ð Alt+0209 Ñ Alt+0210 Ò Alt+0211 Ó Alt+0212 Ô
+Alt+0213 Õ Alt+0214 Ö Alt+0215 × Alt+0216 Ø Alt+0217 Ù Alt+0218 Ú Alt+0219 Û Alt+0220 Ü
+Alt+0221 Ý Alt+0222 Þ Alt+0223 ß Alt+0224 à Alt+0225 á Alt+0226 â Alt+0227 ã Alt+0228 ä
+Alt+0229 å Alt+0230 æ Alt+0231 ç Alt+0232 è Alt+0233 é Alt+0234 ê Alt+0235 ë Alt+0236 ì
+Alt+0237 í Alt+0238 î Alt+0239 ï Alt+0240 ð Alt+0241 ñ Alt+0242 ò Alt+0243 ó Alt+0244 ô
+Alt+0245 õ Alt+0246 ö Alt+0247 ÷ Alt+0248 ø Alt+0249 ù Alt+0250 ú Alt+0251 û Alt+0252 ü
+Alt+0253 ý Alt+0254 þ Alt+0255 ÿ Alt+0140 Œ Alt+0156 œ Alt+0138 Š Alt+0154 š Alt+0142 Ž
+Alt+0158 ž Alt+0131 ƒ Alt+0149 • Alt+60 < Alt+62 > Alt+0128 € Alt+0153 ™ Alt+27 ←
+Alt+24 ↑ Alt+26 → Alt+25 ↓ Alt+30 ▲ Alt+16 ► Alt+31 ▼ Alt+17 ◄ Alt+1 ☺ Alt+2 ☻
+Alt+15 ☼ Alt+12 ♀ Alt+11 ♂ Alt+6 ♠ Alt+5 ♣ Alt+3 ♥ Alt+4 ♦ Alt+13 ♪ Alt+14 ♫
+
+------------------------------------------------------------------------------------------
+
+3D Characters Guide/tips
+
+When dropping a font character into the scene from the model folder
+a, drop font charcter into heirachy 
+b, reset transform
+c, change Y rotation to 180 - this will put the character to the correct rotation of a default Unity scene
+d, change Y position to 0.3 - this will put the character on top of a default plane set at position x 0, y 0, z 0
+e, create a empty gameobject to use as a font character holder, reset transform
+f, place font characters as you wish them to be in your scene
+g, place all font characters from the scene heirachy into the empty font character holder object
+h, now you can just move the holder around to place your created words anywhere in the scene.
+ 
+
+Thanks for using JazzCreate Fonts.
+
+JazzCreate©2015-2016. AllRightsReserved.

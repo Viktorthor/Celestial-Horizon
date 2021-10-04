@@ -1,0 +1,55 @@
+JazzCreate Font Bundle - Version History
+
+vr_1.0 
+
+Compile bundle, including all .tff of all JazzCreate Fonts
+Make demo to display fonts .ttf, and scenes to display .fbx
+Write store description and content
+
+Released vr_1.0 - 15/05/2019
+---------------------------------------------------------------
+vr_1.0.1
+
+Change page background to a white background instead of dirty page screenshot,
+to make fonts more clearer to display.
+Re-do trailer video.
+Change meta data - to remove old font listings
+that have been deprecated, so I can focus on One package rather than many.
+Make easier to update more frequent and add more new content.
+Add 2 new fonts
+- Oriental_Fine
+- PixelArt_Basic
+
+Add supported unity versions (2017.4 , 2018.4 , 2019.1 , 2019.3)
+
+Submit vr_1.0.1 22/02/2020 dd/mm/yy
+---------------------------------------------------------------
+vr_1.0.2
+
+Add 2 new fonts
+- PixelArt_Curly
+- Blocky_Square
+
+Update demo scene to display new fonts
+
+Submit vr_1.0.2 28/03/2020 dd/mm/yy
+---------------------------------------------------------------
+vr_1.0.3
+
+Add 1 new font
+- Blocky_Square_Vietnamese
+
+Fix letters Y and m and ¥ in
+blocky_square font
+Fix letters YÝỲỶỸỴ and m and ¥ in 
+blocky_square_vietnamese font
+
+Submit vr_1.0.3 05/09/2020 dd/mm/yy
+---------------------------------------------------------------
+vr_1.0.4
+
+Add 1 new font
+- Scruffy_JazzcreateGames
+- Update store meta-data
+
+Submit vr_1.0.4 12/12/2020 dd/mm/yy

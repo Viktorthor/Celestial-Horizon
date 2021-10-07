@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
-  powerUp: {fileID: 0}
+  powerUp: {fileID: 11400000, guid: 2bca359256fdd7b468d0971421f454aa, type: 2}
   dropRate: 0.2
 --- !u!114 &-9080695017909545017
 MonoBehaviour:

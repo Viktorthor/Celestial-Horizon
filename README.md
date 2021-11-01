@@ -1,4 +1,5 @@
 # About Celestial Horizon
+## Project has been abandoned due to inactivity and personal life. The script with touch controls is inactive but functional. Feel free to play the first level or add on to a project of your own.
 
 A small Unity project made for fun for Android & iOS.
 
